@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>You've been SHORTIFIED </h1>
+
+<p>This is your shortened link <%= link_to short_url(@short), short_url(@short) %></p>
+
+<p> Unshortened Link <%= link_to @short.long, @short.long %></p>
+
+<p><%= link_to 'ANOTHER ONE', new_short_path %></p>
